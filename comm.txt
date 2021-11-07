@@ -4,3 +4,8 @@ zcat ENCFF669TOV.bed.gz | cut -f1-5 > H3F3A_DOHH2.ENCFF669TOV.hg19.bed
 cat *.filtered.bed | sort -k1,1 -k2,2n | bedtools merge > H3F3A_DOHH2.merge.hg19.bed
 
 bedtools intersect -a DeepZ.bed -b H3F3A_DOHH2.merge.hg19.bed > H3F3A_DOHH2.intersect_with_DeepZ.bed
+
+
+chr1:3030646-3030686
+
+
